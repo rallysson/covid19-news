@@ -140,3 +140,19 @@ a {
     justify-content: flex-start;
   }
 }
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.about img {
+  width: 90%;
+}
+
+.about h4 {
+  font-family: Italiana;
+  font-size: 1.1rem;
+}
