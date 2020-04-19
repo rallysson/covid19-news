@@ -178,3 +178,8 @@ a {
 .main-about {
   justify-content: center;
 }
+
+.about__logo {
+  width: 40px;
+  height: 40px;
+}
