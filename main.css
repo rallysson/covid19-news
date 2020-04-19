@@ -44,7 +44,7 @@ a {
   align-items: center;
 }
 
-.header__divider {
+.divider {
   color: black;
   width: 80%;
   padding: 1px;
@@ -111,9 +111,32 @@ a {
   width: 100%;
 }
 
+.footer {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer span {
+  font-size: 1.1rem;
+  font-family: Italiana;
+  font-weight: 600;
+  margin: auto;
+}
+
 @media only screen and (min-width: 840px) {
   main {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  main > section {
+    margin: 0 16px;
+  }
+}
+
+@media only screen and (min-width: 1760px) {
+  main {
+    justify-content: flex-start;
   }
 }
