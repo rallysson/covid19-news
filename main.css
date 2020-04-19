@@ -156,3 +156,19 @@ a {
   font-family: Italiana;
   font-size: 1.1rem;
 }
+
+.contato {
+  margin: 0;
+  width: 100%;
+}
+
+.contato iframe {
+  width: 100%;
+  height: 850px;
+}
+
+.references a {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  color: blue;
+}
