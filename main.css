@@ -146,6 +146,7 @@ a {
   align-items: center;
   flex-direction: column;
   max-width: 500px;
+  align-self: center;
 }
 
 .about img {
@@ -171,4 +172,9 @@ a {
   font-size: 0.8rem;
   text-decoration: underline;
   color: blue;
+  padding: auto;
+}
+
+.main-about {
+  justify-content: center;
 }
